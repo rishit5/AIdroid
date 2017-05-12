@@ -1,0 +1,20 @@
+This file conatains most of the work that i have done over the week:
+
+OpenCV:
+
+1. BallTracker.py: Tracks any red object and draws a contour around it and finds the centre
+
+Machine Learning:
+
+1.LinearRegression: Applies Linear Regression on a predefined dataset. and predicts values for inputs
+2.KNN : Classifies petals on basis of the features provided into 3 distinct kinds
+
+
+Machine Learning + OpenCV:
+
+1. Image Searcher: Index.py: 
+		   It uses opencv to extract feautres of the picture using the calcHist function and then stores those features on a file.
+		   We then run this program on a dataset of images(img) and make a csv file of the features
+		   Search.py:
+		   This takes a query picture and extracts its features and then compares it with our csv file and then returns those images
+		   which are most similar or have least distance between features
